@@ -1,6 +1,6 @@
 {
 	"frames": {
-		"left1.png": {
+		"right1.png": {
 			"frame": {
 				"x": 1,
 				"y": 1,
@@ -20,7 +20,7 @@
 				"h": 68
 			}
 		},
-		"left2.png": {
+		"right2.png": {
 			"frame": {
 				"x": 48,
 				"y": 1,
@@ -40,7 +40,7 @@
 				"h": 68
 			}
 		},
-		"left3.png": {
+		"right3.png": {
 			"frame": {
 				"x": 95,
 				"y": 1,
@@ -60,7 +60,7 @@
 				"h": 68
 			}
 		},
-		"left4.png": {
+		"right4.png": {
 			"frame": {
 				"x": 1,
 				"y": 71,
@@ -84,7 +84,7 @@
 	"meta": {
 		"app": "http://www.codeandweb.com/texturepacker",
 		"version": "1.0",
-		"image": "spritesheet.png",
+		"image": "spritesheetRight.png",
 		"format": "RGBA8888",
 		"size": {
 			"w": 141,

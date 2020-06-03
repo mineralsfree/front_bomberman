@@ -1,26 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {useCallback, useEffect, useState} from 'react';
 import './App.css';
 
-function App() {
+import {Stage,} from '@inlet/react-pixi';
+import {Player} from "./components/Player/Player";
+import {Background} from "./components/Background/Background";
+
+const [width, height] = [640, 480];
+
+
+const App = () => {
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Stage width={width} height={height}>
+      <Background/>
+      <Player/>
+    </Stage>
   );
 }
-
 export default App;
