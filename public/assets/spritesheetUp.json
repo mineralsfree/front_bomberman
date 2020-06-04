@@ -1,6 +1,6 @@
 {
 	"frames": {
-		"right1.png": {
+		"up1.png": {
 			"frame": {
 				"x": 1,
 				"y": 1,
@@ -20,7 +20,7 @@
 				"h": 68
 			}
 		},
-		"right2.png": {
+		"up2.png": {
 			"frame": {
 				"x": 48,
 				"y": 1,
@@ -40,7 +40,7 @@
 				"h": 68
 			}
 		},
-		"right3.png": {
+		"up3.png": {
 			"frame": {
 				"x": 95,
 				"y": 1,
@@ -60,7 +60,7 @@
 				"h": 68
 			}
 		},
-		"right4.png": {
+		"up4.png": {
 			"frame": {
 				"x": 1,
 				"y": 71,
@@ -80,7 +80,7 @@
 				"h": 68
 			}
 		},
-		"right5.png": {
+		"up5.png": {
 			"frame": {
 				"x": 48,
 				"y": 71,
@@ -100,12 +100,12 @@
 				"h": 68
 			}
 		},
-		"right6.png": {
+		"up6.png": {
 			"frame": {
 				"x": 95,
 				"y": 71,
 				"w": 45,
-				"h": 69
+				"h": 68
 			},
 			"rotated": false,
 			"trimmed": false,
@@ -113,14 +113,14 @@
 				"x": 0,
 				"y": 0,
 				"w": 45,
-				"h": 69
+				"h": 68
 			},
 			"sourceSize": {
 				"w": 45,
-				"h": 69
+				"h": 68
 			}
 		},
-		"right7.png": {
+		"up7.png": {
 			"frame": {
 				"x": 142,
 				"y": 1,
@@ -144,11 +144,11 @@
 	"meta": {
 		"app": "http://www.codeandweb.com/texturepacker",
 		"version": "1.0",
-		"image": "spritesheetRight.png",
+		"image": "spritesheetUp.png",
 		"format": "RGBA8888",
 		"size": {
 			"w": 188,
-			"h": 141
+			"h": 140
 		},
 		"scale": "1"
 	}

@@ -3,7 +3,7 @@ import {PixiComponent, Container, useApp} from "@inlet/react-pixi";
 import * as PIXI from "pixi.js";
 import {moveHandler} from "../../helpers/coordinatesHelper";
 
-let spritesheets = {left: 'assets/spritesheetLeft.json', right: 'assets/spritesheetRight.json'}
+let spritesheets = {left: 'assets/spritesheetLeft.json', right: 'assets/spritesheetRight.json', up: 'assets/spritesheetUp.json', down:'assets/spritesheetDown.json'}
 const tick = 50;
 export const Player = () => {
   const [coordinates, setCoordinates] = useState({x: 250, y: 250, direction: 'left', frames: [], pressed: ''})

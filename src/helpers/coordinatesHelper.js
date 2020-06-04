@@ -6,15 +6,17 @@ export const moveHandler = (coordinates) => {
       coordinates.x += STEP;
       coordinates.direction = 'right';
       break;
-    case 38:
+    case 'ArrowUp':
       coordinates.y -= STEP;
+      coordinates.direction = 'up';
       break;
     case 'ArrowLeft':
       coordinates.x -= STEP;
       coordinates.direction = 'left';
       break;
-    case 40:
+    case 'ArrowDown':
       coordinates.y += STEP;
+      coordinates.direction = 'down';
       break;
     case 32:
       break;
